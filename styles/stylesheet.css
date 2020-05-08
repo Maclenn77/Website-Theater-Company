@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+}
+
+nav {
+  background-color: #010416;
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+
+}
+
+button {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
