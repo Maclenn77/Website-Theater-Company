@@ -4,7 +4,42 @@ body {
 
 nav {
   background-color: #010416;
+}
 
+nav .navbar-brand {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+nav .active {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+nav ul a:hover {
+  color: #fff;
+  background-color: #2c2e3c;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+button {
+  color: #fff;
 }
 
 main {
@@ -16,11 +51,12 @@ footer {
 }
 
 a {
-  color: #fff;
+
 }
 
 a:hover {
-
+  color
+  opacity: 80%;
 }
 
 button {
@@ -33,7 +69,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
 }
 
 p {
