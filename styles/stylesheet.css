@@ -2,6 +2,7 @@ body {
   font-size: 16px;
 }
 
+/* Navbar style */
 nav {
   background-color: #010416;
 }
@@ -38,8 +39,16 @@ nav ul a:hover {
   color: #fff;
 }
 
-button {
+.btn {
   color: #fff;
+  border-color: #900000;
+  background-color: #c90707;
+}
+
+a:hover.btn {
+  color: #fff;
+  border-color: #900000;
+  background-color: #900000;
 }
 
 main {
@@ -63,7 +72,9 @@ button {
 
 }
 
-h1,
+h1 {
+  font-family: 'Playfair Display', serif;
+}
 h2,
 h3,
 h4,
