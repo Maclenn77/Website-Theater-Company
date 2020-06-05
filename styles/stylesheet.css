@@ -85,3 +85,36 @@ h6 {
 p {
   font-family: 'Montserrat', sans-serif;
 }
+
+/* jumbotron */
+
+.jumbotron {
+  background: none;
+  margin: 0;
+  padding-left: 5vw;
+  position: relative;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.jumbotron::after {
+  content: "";
+  background: url("Images/hero-image-teatro-desde-la-nada.jpg") bottom no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.95;
+  z-index: -2;
+}
+
+.display-4 {
+
+}
+
+hr {
+  border: 3px solid #c90707;
+  border-radius: 2px;
+}

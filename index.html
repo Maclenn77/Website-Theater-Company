@@ -49,7 +49,7 @@
     <main class="mt-5">
       <!-- Add jumbotron, activities, next plays -->
       <!-- jumbotron -->
-      <div class="jumbotron">
+      <section class="jumbotron">
         <h1 class="display-4">Teatro Desde la Nada</h1>
         <p class="lead">Espectáculos escénicos hechos por inquietos</p>
         <hr class="my-4">
@@ -57,46 +57,55 @@
         <p class="lead">
           <a class="btn btn-lg" href="#" role="button"> Inscríbete </a>
         </p>
-      </div>
+      </section>
       <!-- carrousel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="..." alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Test</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+      <section class="ads_section d-flex align-items-center">
+		      <a href="#" class="material-icons">chevron_left</a>
+
+		        <div class="carousel slide w-100 d-flex justify-content-center" data-ride="carousel">
+			           <div class="carousel-inner h-100">
+				               <h4 class="titles my-3">Actividades</h4>
+				                   <div class="carousel-item active ads-content">
+					<!-- Frist Ads -->
+					     <img class="ads-image"
+						         src="https://isthatplacesafe.com/wp-content/uploads/2019/01/how-safe-is-uzbekistan-for-tourists.jpg"
+                     alt="Ads-image" />
+              <div class="carousel-body">
+					           <h2 class="font-red">Ceramic hand made sculpture</h2>
+					                <p>
+						A souvenir memento, keepsake, or token of remembrance is an object
+						a person acquires for the memories the owner associates with it. A
+						souvenir can be any object that can be collected or purchased and
+						transported home by the traveler as a memento of a visit. The
+						object itself may have intrinsic value, or be a symbol of
+						experience. Without the owner's input, the symbolic meaning is
+						invisible and cannot be articulated.
+					     </p>
+					          <p><b>By:</b> Akmal Q.</p>
+					               <p><b>Location:</b> Registan, Samarkand</p>
+					                    <button class="btn ">Buy 40$</button></div>
+				                        </div>
+
+				                            <div class="carousel-item  ads-content">
+					<!-- Second Ads // Thinks to do in Uzbekistan -->
+					     <img class="ads-image"
+						         src="https://cdn.twomonkeystravelgroup.com/wp-content/uploads/2019/11/Things-to-do-in-Uzbekistan3.png"
+                     alt="Ads-image" />
+                     <div class="carousel-body">
+					                  <h2 class="font-red">Ancient Cities Tour to Uzbekistan</h2>
+					                       <p><b> Ancient Cities Tour to Uzbekistan: </b>Explore Ancient Cities
+						Samarkand, Shakhrisabz, Bukhara and Khiva - the Oldest Inhabited
+						Cities in Central Asia.
+					     </p>
+					          <p><b>By:</b> Amina Tour</p>
+					               <p><b>Location:</b> Tasheknt</p>
+					                    <button class="btn ">Buy 440$</button></div>
+				                        </div>
+			                           </div>
+		                             </div>
+
+		                               <a href="#" class="material-icons">chevron_right</a>
+	      </section>
     </main>
     <!-- footer of the page -->
     <footer class="footer fixed-bottom mt-auto py-3">
