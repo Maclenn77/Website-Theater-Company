@@ -3,29 +3,125 @@
   <head>
     <!-- meta tags -->
     <meta charset="utf-8">
+    <meta name="Author" content="Juan Paulo Pérez Tejada // Daiuk Omnichannel " />
     <meta name="description" content="Teatro 'Desde la nada' es una compañía de teatro mexicana con sede en la ciudad de México">
-    <meta name="keywords" content="Teatro, Compañía de Teatro, Teatro en México">
+    <meta name="keywords" content="Teatro, Compañía de Teatro, Teatro en México, Clases de Teatro">
 
-    <!-- Bootstrap CSS -->
+    <!-- Style CSS, Bootstrap, icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" media="screen" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
     <!-- Title of the page -->
     <title>Teatro "Desde la nada"</title>
   </head>
   <body>
     <!-- Navbar of the page -->
-    <nav>
-      <!-- Add code here -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#"><img src="styles/Images/icono-teatro-desde-la-nada.jpg" alt="Logo Teatro Desde la Nada" width="48px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link p-2" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2" href="#">
+              Sobre nosotros
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2" href="#">Prensa</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- Main section -->
-    <main>
+    <main class="mt-5 py-3">
       <!-- Add jumbotron, activities, next plays -->
+      <!-- jumbotron -->
+      <section class="jumbotron">
+        <h1 class="display-4">Teatro Desde la Nada</h1>
+        <p class="lead">Espectáculos escénicos hechos por inquietos</p>
+        <hr class="my-4">
+        <p>¡Nuestro taller de actuación está por comenzar!</p>
+        <p class="lead">
+          <a class="btn btn-lg" href="#" role="button"> Inscríbete </a>
+        </p>
+      </section>
+      <!-- carrousel -->
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <section class="ads_section d-flex align-items-center w-100">
+		            <a href="#" class="material-icons">chevron_left</a>
+
+		              <div class="carousel slide d-flex justify-content-center" data-ride="carousel">
+			                 <div class="carousel-inner h-75">
+				                     <div class="carousel-item active ads-content">
+					<!-- Frist Ads -->
+					       <img class="ads-image"
+						         src="styles/Images/obras.jpg"
+                     alt="Obras de Teatro desde la nada" />
+                     <figcaption class="carousel-body d-flex">
+                       <h3 class="mr-auto titles"> Obras </h3><button class="btn-carousel material-icons">add</button></figcaption>
+                </div>
+
+				                            <div class="carousel-item  ads-content">
+					<!-- Second Ads // Thinks to do in Uzbekistan -->
+					     <img class="ads-image"
+						         src="styles/Images/taller-actuacion.jpg"
+                     alt="Ads-image" />
+                     <figcaption class="carousel-body d-flex justify-content-between">
+                       <h3 class="titles"> Talleres </h3><button class="btn-carousel material-icons ml-auto">add</button></figcaption>
+
+                       </div>
+			                           </div>
+		                             </div>
+
+		                               <a href="#" class="material-icons">chevron_right</a>
+                                 </section>
+                                  </div>
+                                   <div class="col w-100 col-md-4">
+                                     <section class="about-home m-3 p-2">
+                                       <h2>Sobre nosotros</h2>
+                                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                     </section>
+
+
+                                   </div>
+
+
+
+                                   </div>
+                                </div>
+
     </main>
     <!-- footer of the page -->
-    <footer>
+    <footer class="footer py-3">
       <!-- Add legal info. Social media -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span class="text-muted d-flex align-items-center"><a href="mailto:maclenn77@gmail.com" class="material-icons mx-2">email</a> <a href='facebook.com' class='fab fa-facebook'></a></span>
+          </div>
+          <div class="col">
+            <span class="text-muted">Copyright (c) 2020 Teatro desde la Nada.</span>
+          </div>
+          <div class="col">
+            <span class="text-muted">Página web desarrollada por Daiuk Omnichannel SAS de CV</span>
+          </div>
+        </div>
+      </div>
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
