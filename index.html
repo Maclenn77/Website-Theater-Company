@@ -9,6 +9,7 @@
 
     <!-- Style CSS, Bootstrap, icons -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" media="screen" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -41,7 +42,7 @@
       </div>
     </nav>
     <!-- Main section -->
-    <main class="mt-5">
+    <main class="mt-5 py-3">
       <!-- Add jumbotron, activities, next plays -->
       <!-- jumbotron -->
       <section class="jumbotron">
@@ -54,60 +55,68 @@
         </p>
       </section>
       <!-- carrousel -->
-      <section class="ads_section d-flex align-items-center mt-5">
-		      <a href="#" class="material-icons">chevron_left</a>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <section class="ads_section d-flex align-items-center w-100">
+		            <a href="#" class="material-icons">chevron_left</a>
 
-		        <div class="carousel slide w-100 d-flex justify-content-center" data-ride="carousel">
-			           <div class="carousel-inner h-100">
-				                   <div class="carousel-item active ads-content">
+		              <div class="carousel slide d-flex justify-content-center" data-ride="carousel">
+			                 <div class="carousel-inner h-75">
+				                     <div class="carousel-item active ads-content">
 					<!-- Frist Ads -->
-					     <img class="ads-image"
+					       <img class="ads-image"
 						         src="styles/Images/obras.jpg"
-                     alt="Ads-image" />
-              <div class="carousel-body">
-					           <h2 class="titles">Obras</h2>
-                     <section class="d-none d-md-block">
-					                <p>
-						A souvenir memento, keepsake, or token of remembrance is an object
-						a person acquires for the memories the owner associates with it. A
-						souvenir can be any object that can be collected or purchased and
-						transported home by the traveler as a memento of a visit.
-					     </p>
-					          <p><b>By:</b> Akmal Q.</p>
-					               <p><b>Location:</b> Registan, Samarkand</p>
-                         </section>
-					                    <button class="btn-carousel">Más información</button></div>
-				                        </div>
+                     alt="Obras de Teatro desde la nada" />
+                     <figcaption class="carousel-body d-flex">
+                       <h3 class="mr-auto titles"> Obras </h3><button class="btn-carousel material-icons">add</button></figcaption>
+                </div>
 
 				                            <div class="carousel-item  ads-content">
 					<!-- Second Ads // Thinks to do in Uzbekistan -->
 					     <img class="ads-image"
 						         src="styles/Images/taller-actuacion.jpg"
                      alt="Ads-image" />
-                     <div class="carousel-body">
-					                  <h2 class="titles">Taller de actuación</h2>
-                            <section class="d-none d-md-block">
-					                       <p><b> Ancient Cities Tour to Uzbekistan: </b>Explore Ancient Cities
-						Samarkand, Shakhrisabz, Bukhara and Khiva - the Oldest Inhabited
-						Cities in Central Asia.
-					     </p>
-					          <p><b>By:</b> Amina Tour</p>
-					               <p><b>Location:</b> Tasheknt</p>
-                          </section>
-					                    <button class="btn-carousel">Más información</button></div>
+                     <figcaption class="carousel-body d-flex justify-content-between">
+                       <h3 class="titles"> Talleres </h3><button class="btn-carousel material-icons ml-auto">add</button></figcaption>
 
-				                        </div>
+                       </div>
 			                           </div>
 		                             </div>
 
 		                               <a href="#" class="material-icons">chevron_right</a>
+                                 </section>
+                                  </div>
+                                   <div class="col w-100 col-md-4">
+                                     <section class="about-home m-3 p-2">
+                                       <h2>Sobre nosotros</h2>
+                                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                     </section>
+
+
+                                   </div>
+
+
+
+                                   </div>
+                                </div>
 
     </main>
     <!-- footer of the page -->
-    <footer class="footer fixed-bottom mt-auto py-3">
+    <footer class="footer py-3">
       <!-- Add legal info. Social media -->
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <div class="row">
+          <div class="col">
+            <span class="text-muted d-flex align-items-center"><a href="mailto:maclenn77@gmail.com" class="material-icons mx-2">email</a> <a href='facebook.com' class='fab fa-facebook'></a></span>
+          </div>
+          <div class="col">
+            <span class="text-muted">Copyright (c) 2020 Teatro desde la Nada.</span>
+          </div>
+          <div class="col">
+            <span class="text-muted">Página web desarrollada por Daiuk Omnichannel SAS de CV</span>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

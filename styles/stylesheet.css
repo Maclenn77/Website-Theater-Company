@@ -52,7 +52,7 @@ a:hover.btn {
 }
 
 main {
-  background-color: #2c2e3c;
+  background-color: #909091;
 }
 
 footer {
@@ -75,8 +75,10 @@ button {
 .btn-carousel {
   color: #000;
   background-color: #ff795e;
-  border: none;
+  border: #ff795e;
+  border-radius: 50%;
   padding: 10px;
+  margin: 6px;
 }
 
 h1 {
@@ -116,27 +118,45 @@ hr {
 }
 
 .ads_section {
-  margin-bottom: 30px;
 }
 
 .ads_section .carousel-inner {
-  width: 85%;
-  background-color: #fff;
+  width: 100%;
+  background-color: #000;
+  box-shadow: 5px 10px 5px -5px #000;
 }
 
 .ads-image {
-  width: 50%;
-  float: left;
-  margin-right: 30px;
-  box-shadow: 5px 10px 5px -5px #777;
+  width: 100%;
 }
 
 .titles {
-  background-color: #ba000d;
   color: #fff;
   padding: 5px;
 }
 
-.material-icons {
-  color: #ff795e;
+figcaption {
+  background-color: #ba000d;
+}
+
+.about-home {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 5px 10px 5px -5px #000;
+  width: 100%;
+}
+
+.about-home h2 {
+  color: #ba000d;
+}
+
+footer {
+  background-color: #2c2e3c;
+}
+
+footer a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
 }
